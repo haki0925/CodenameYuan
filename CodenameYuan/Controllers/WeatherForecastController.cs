@@ -36,5 +36,12 @@ namespace CodenameYuan.Controllers
         {
             return Ok("代號鳶，奈何我推生你遊！");
         }
+
+        [Route("Test")]
+        [HttpGet]
+        public IActionResult Test()
+        {
+            return Ok("Test Test Test");
+        }
     }
 }
